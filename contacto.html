@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Contacto</title>
+  <link rel="shortcut icon" type="image/jpg" href="favicon/favicon.ico" />
+</head>
+
+<body>
+  <div id="contenedor">
+    <header>
+      <nav>
+        <ul>
+          <li id="alejandria">ALEJANDRÍA</li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="autores.html">Autores</a></li>
+          <li><a href="best_sellers.html">Best-sellers</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside>
+      <h3 id="frase_dia">Frases del día:</h3>
+      <br />
+      <p>
+        <span class="quote">“Era un sonido paciente e impasible como el de las flores cortadas;
+          el silencio de un hombre que espera la muerte.”</span>
+        (Patrick Rothfuss, El Nombre Del Viento)<br /><br />
+        <span class="quote">“Esta que llaman por ahí Fortuna es una mujer borracha y
+          antojadiza, y sobre todo, ciega, y así no ve lo que hace, ni sabe a
+          quien derriba.”</span>
+        (Miguel de Cervantes, El Ingenioso hidalgo don Quijote de la Mancha)
+      </p>
+    </aside>
+
+    <section id="sec_contacto">
+      <h6 class="fuera">Para que no salga warning</h6>
+      <div id="contacto_form">
+        <form>
+          <label>Nombre</label>
+          <input type="text" name="nombre">
+          <label>Apellidos</label>
+          <input type="text" name="apellidos">
+          <label>Correo electrónico</label>
+          <input type="email" name="correo">
+          <label>Teléfono</label>
+          <input type="tel" name="telefono">
+          <label>Mensaje</label>
+          <textarea name="mensaje" cols="30" rows="10"></textarea>
+          <button type="submit">ENVIAR</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <table id="redes">
+        <tr>
+          <td><a href="#">Twitter</a></td>
+          <td><a href="#">Facebook</a></td>
+          <td><a href="#">Instagram</a></td>
+          <td><a href="#">Youtube</a></td>
+          <td><a href="#">Tuenti</a></td>
+        </tr>
+      </table>
+      <br />
+      <table id="copy_busqueda">
+        <tr>
+          <td>&copy; 2021 PERIQUITO DE LOS PALOTES</td>
+          <td><input type="search" placeholder="¿Qué buscas?" /></td>
+        </tr>
+      </table>
+
+      <small>
+        Estamos trabajando en la versión responsive de Alejandría, para que
+        puedas leer sobre tus autores favoritos mientras estás tirado en la
+        cama :)
+      </small>
+    </footer>
+  </div>
+</body>
+
+</html>
