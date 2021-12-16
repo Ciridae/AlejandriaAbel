@@ -8,5 +8,10 @@
 <link>https://ciridae.github.io/AlejandriaAbel/autores.html</link>
 <description>Los autores que lo están petando.</description>
 </item>
+<item>
+<title>Los mejores libros</title>
+<link>https://ciridae.github.io/AlejandriaAbel/best_sellers.html</link>
+<description>Una selección de best sellers que nos encantan y consideramos lo mejor de los mejor.</description>
+</item>
 </channel>
 </rss>
