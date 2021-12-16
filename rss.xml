@@ -1,0 +1,12 @@
+<rss version="2.0">
+<channel>
+<title>Toda la actualidad de tus autores favoritos</title>
+<link>https://alejandria.com</link>
+<description>Información sobre los libros más esperados.</description>
+<item>
+<title>Autores del momento</title>
+<link>https://ciridae.github.io/AlejandriaAbel/autores.html</link>
+<description>Los autores que lo están petando.</description>
+</item>
+</channel>
+</rss>
