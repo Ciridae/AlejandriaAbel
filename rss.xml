@@ -4,6 +4,11 @@
 <link>https://ciridae.github.io/AlejandriaAbel/</link>
 <description>Información sobre los libros más esperados.</description>
 <item>
+<image>
+<url>https://www.w3schools.com/images/logo.gif</url>
+<title>W3Schools.com</title>
+<link>https://www.w3schools.com</link>
+</image>
 <title>Autores del momento</title>
 <link>https://ciridae.github.io/AlejandriaAbel/autores.html</link>
 <description>Los autores que lo están petando.</description>
